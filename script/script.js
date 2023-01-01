@@ -18,19 +18,42 @@ button.addEventListener('click',function(){
     }
 })
 
-/*const y = document.getElementById('hide-desktop-table-view');
 
 
-function myFunction(x){
-    if(x.matches){
-        y.classList.add('desktop-tablet-view-hide');
-    } else{
-        y.classList.remove('desktop-tablet-view-hide')
+let moreText = document.getElementById('more');
+let myBtn = document.getElementById('myBtn');
+let dots = document.getElementById('dots');
+
+
+   myBtn.addEventListener('click', function(){
+
+    if(dots.style.display === "none"){
+        moreText.style.display = "none";
+        dots.style.display = "inline";
+        
+        
+       
+        
+    } else {
+        moreText.style.display = "inline";
+        dots.style.display = "none";
+        myBtn.classList.remove('fa-angel-down');
+      
+     
+        
     }
-}
 
-var x = window.matchMedia("(min-width:450px)");
 
-myFunction(x);
-x.addEventListener(myFunction);*/
+
+
+
+
+   })
+
+
+
+
+
+
+
 
