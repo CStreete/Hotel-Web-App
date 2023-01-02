@@ -6,9 +6,11 @@ header{
 
 header .logo {
    
-    max-width: 33%;
+    width: 80px;
+    height: 80px;
     padding-right: 18%;
     margin-left: 2%;
+    
     
 }
 
