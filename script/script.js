@@ -16,7 +16,7 @@ button.addEventListener('click',function(){
     else if(hamburgerIcon.classList.contains('fa-x')){
         hamburgerIcon.classList.remove('fa-x');
         hamburgerIcon.classList.add('fa-bars');
-        menu.classList.toggle("is-active")
+        menu.classList.toggle("is-active");
     }
 })
 
@@ -34,7 +34,7 @@ let dots = document.getElementById('dots');
         dots.style.display = "inline";
         myBtn.classList.remove('fa-angle-down');
         myBtn.classList.add('fa-angle-down');
-        myBtn.classList.remove('fa-angle-up')
+        myBtn.classList.remove('fa-angle-up');
         
         
         
@@ -57,6 +57,15 @@ let dots = document.getElementById('dots');
    })
 
 
+
+
+
+
+
+   
+   
+
+  
 
    
 

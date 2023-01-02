@@ -59,10 +59,10 @@ header .hamburger {
 
 .wrapper{
     position: fixed;
-    right: 400%;
+    left: 400%;
     height: 100%;
     width: 100%;
-    transition: ease-out 0.5s;
+    transition:ease 0.5s;
     z-index: 98;
 }
 
