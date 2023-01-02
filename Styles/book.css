@@ -17,6 +17,7 @@
         width: 100vw;
         
         
+        
     }
 
     .page-header{
@@ -203,9 +204,64 @@
         font-style: normal;
         letter-spacing: 0.01rem;
     }
-    #myBtn{
+    #myBtn, #myBtn-2{
         color: #0F1E4A;
     }
+
+    footer{
+        background: aqua;
+        width: 100%;
+        margin-top: 2%;
+        
+    }
+    .contact-info{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background:#0F1E4A;
+        width: 100%;
+        height: 100%;
+        padding-left: 3%;
+    }
+
+    .first{
+        display: flex;
+        flex-direction: column;
+        
+        width: 30%;
+    }
+    .second{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        
+    }
+    .watermark{
+        display: flex;
+        justify-content: center;
+        background: #0F1E4A;
+    }
+    .watermark a {
+        text-decoration: none;
+    }
+
+
+
+    .title{color:#FCF6F5;
+        font-size: 1rem; }
+    
+        .adress{font-size: 1rem;}
+    
+        .reception,.room{color:#FCF6F5; font-size: 1rem;}
+    
+        .reception-number,.reception-email,.room-number,.room-email{
+            color: #FCF6F5; text-decoration: none; font-size: 1rem;
+        }
+
+        p{
+            color: #FCF6F5;
+        }
+
 
     
 

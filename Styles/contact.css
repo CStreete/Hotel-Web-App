@@ -1,0 +1,327 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-style: italic;
+        font-family: Cardo;
+        font-weight: 500;
+       
+        color: #FCF6F5;
+        scroll-behavior: smooth;
+        
+    }
+
+    body{
+        background:#F2EDD7FF;
+        height: 100vh;
+        overflow-x: hidden;
+    }
+
+    .page-header{
+        background: #2156BE;
+    }
+    main{
+        height: 100%;
+
+    }
+
+    .header-text{
+        color: #FCF6F5;
+    }
+
+
+
+    .contact-container{
+        height: 100%;
+        width: 100%;
+    }
+
+
+    .intro-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: crimson;
+        height: 50%;
+        max-width: 100%;
+        border: #0F1E4A solid 0px;
+        padding-top: 20%;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        background-image: url('../img/pexels-pixabay-221455.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+    }
+
+
+    .contact-us-intro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        border: #0F1E4A solid px;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+    }
+
+    .pic-text{
+        color:#FCF6F5 ;
+    }
+    .arrow{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 20%;
+        z-index: 1;
+        cursor: pointer;
+        
+        width: 100%;
+        
+    }
+
+
+    .contact-info-container{
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+
+   
+
+
+
+    .contact-info{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+        padding-left: 10%;
+        padding-top: 10%;
+        width: 30%;
+        height: 100%;
+    }
+
+    .title{color: #0F1E4A;
+    font-size: 3rem; }
+
+    .adress{font-size: 1.3rem;}
+
+    .reception,.room{color: #0F1E4A; font-size: 2rem;}
+
+    .reception-number,.reception-email,.room-number,.room-email{
+        color: #0F1E4A; text-decoration: none; font-size: 1.3rem;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        
+        height:83%;
+        
+    }
+
+    .ourform{
+        padding-left: 10%;
+        padding-top: 10%;
+        padding-right: 10%;
+        height: 100%;
+        
+    }
+
+    .box{
+        display: flex;
+      
+        margin-top: 2%;
+        height: 10%;
+        
+    }
+
+    .box-option{
+        margin-top: 2%;
+        height: 100%;
+    }
+
+    fieldset{
+        height: 15%;
+        background: #0F1E4A;
+        border: none;
+        
+    }
+    option{
+        background: #0F1E4A;
+        font-style: normal;
+        
+    }
+    label{
+        font-style: normal;
+        
+    }
+    select{
+        background: #0F1E4A;
+        width: 20%;
+        font-style: normal;
+        font-size: 1rem;
+    }
+
+    textarea{
+        resize: none;
+        width: 100%;
+        height: 100%;
+        color:#FCF6F5;
+        font-size: 1.5rem;
+        background: #0F1E4A;
+        font-style: normal;
+    }
+    
+    textarea::placeholder{
+        font-style: normal;
+        color:#FCF6F5;
+        
+    }
+
+
+   
+    #textarea{
+        height: 40%;
+        width: 100%;
+    }
+
+   
+    input{
+        width: 100%;
+        height: 50px;
+        background: #0F1E4A;
+        border: none;
+        font-size: 1.5rem;
+        font-style: normal;
+    }
+     #tele::placeholder,#name::placeholder{
+        color: #FCF6F5;
+        font-size: 1rem;
+        font-style: normal;
+        padding-left: 3%;
+    }
+    #email::placeholder{
+        color: #FCF6F5;
+        font-size: 1rem;
+        font-style: normal;
+        padding-left: 2%;
+    }
+
+
+
+
+
+    #name{
+        margin-right: 1%;
+    }
+
+
+   p {
+        color:#0F1E4A;
+    }
+
+    
+    h1{
+        font-size: 3rem;
+
+    }
+
+
+    .intro-text{
+        padding-top: 5%;
+        text-align: center;
+       font-size: 1.5rem;
+       width: 80%;
+    }
+
+    .design-img{
+        width: 200px;
+        padding-top: 3%;
+        height: 40px;
+    }
+
+
+    footer{
+        background: aqua;
+        width: 100%;
+        margin-top: 10%;
+        
+    }
+
+
+    .contact-info-footer{
+        padding-top: 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background:#0F1E4A;
+        width: 100%;
+        height: 108px;
+        padding-left: 3%;
+    }
+    
+
+    .first-footer{
+        display: flex;
+        flex-direction: column;
+        
+        width: 30%;
+    }
+    .second-footer{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        
+    }
+    .watermark{
+        display: flex;
+        justify-content: center;
+        background: #0F1E4A;
+    }
+    .watermark a {
+        text-decoration: none;
+    }
+
+    .adress-footer{
+        color: #FCF6F5;
+    }
+
+    .title-footer{color:#FCF6F5;
+        font-size: 1rem; }
+    
+        .adress-footer{font-size: 1rem;}
+    
+        .reception-footer,.room-footer{color:#FCF6F5; font-size: 1rem;}
+    
+        .reception-number-footer,.reception-email-footer,.room-number-footer,.room-email-footer{
+            color: #FCF6F5; text-decoration: none; font-size: 1rem;
+        }
+
+       
+
+    
+    @media screen and (max-width:500px) {
+        .contact-info-container{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+        }
+        
+   
+
+        
+    }
+
+    @media screen and (max-width:730px) {
+        .arrow{bottom: 30%;}
+        
+   
+
+        
+    }
