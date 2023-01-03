@@ -22,11 +22,15 @@ button.addEventListener('click',function(){
 
 
 
-let moreText = document.getElementById('more');
-let myBtn = document.getElementById('myBtn');
-let dots = document.getElementById('dots');
+    let moreText = document.getElementById('more');
+    let myBtn = document.getElementById('myBtn');
+    let dots = document.getElementById('dots');
 
-   myBtn.addEventListener('click', function(){
+    
+
+    
+
+    function myFunc(){
     
    
     if(dots.style.display === "none" && myBtn.classList.contains('fa-angle-down')){
@@ -35,27 +39,13 @@ let dots = document.getElementById('dots');
         myBtn.classList.remove('fa-angle-down');
         myBtn.classList.add('fa-angle-down');
         myBtn.classList.remove('fa-angle-up');
-        
-        
-        
-       
-        
-        
     
     } else {
         moreText.style.display = "inline";
         dots.style.display = "none";
         myBtn.classList.add('fa-angle-up');
-       
-        
-
-        
-      
-     
-        
     }
-   })
-
+   }
 
 
 
