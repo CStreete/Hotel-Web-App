@@ -48,6 +48,29 @@
         </div>
      </header>
         <main>
+            <nav id="menu" class="wrapper" >
+                <ul>
+                    <div class="img-style"></div>
+                    <li>  
+                        <a href="index.html">
+                            <span class="home-tag">Home</span>
+                            <img src="img/hammock.jpg" alt="Home" width="400px">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="book.html">
+                            <span class="room-tag">Our Rooms</span>                 
+                            <img src="img/presidential.jpeg" alt="Our Rooms" width="400px" height="300px">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            <span class="contact-tag">Contact Us</span>
+                            <img src="img/reception.jpg" alt="Contact Us"  width="400px">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
           
             <section class="contact-container">
                 <div class="intro-container">
@@ -64,7 +87,7 @@
                         Here, you can find our contact information, such as our mailing address, email address, and phone number. 
                         You can also use the contact form to send us a message. 
                        </p>
-                       <img class="design-img" src="img/Valima Resort (3).png" width="100%" height="100%" alt="">
+                       <img class="design-img" src="img/Valima Resort (3).png" width="100%" height="100%" alt="Design Tag">
                 </article>
                 <section class="contact-info-container" id="form-start">
                     <div class="contact-info">
@@ -80,19 +103,20 @@
                     <a class="room-email" href="mailto:reservatons@cccresort.com">reservations@cccresort.com</a>
                     </div>
                     <div class="ourform">
+                        
                         <h2 class="title">Email Us</h2>
                         <br>
                         <p>
                             We’d love to hear from you, please email us with any questions or enquiries. 
                             For reservations, please email reservations@cccresort.com
                         </p>
-                            <form action="">
+                            <form action="form-sent.html">
                                 <div class="box">
-                                    <input id="name" type="text" placeholder="Name">
-                                    <input id="tele" type="tel" placeholder="Number">
+                                    <input id="name" type="text" placeholder="Name" required>
+                                    <input id="tele" type="tel" placeholder="Number" required>
                                 </div>
                                 <div class="box">
-                                    <input id="email" type="text" placeholder="Your Email">
+                                    <input id="email" type="text" placeholder="Your Email" required>
                                 </div>
                                 <div class="box-option">
                                     <fieldset>
@@ -100,7 +124,7 @@
                                         <label for="option"><br>
                                             Select reason for contacting us: 
                                         </label><br>
-                                        <select name="option" id="option">
+                                        <select name="option" id="option" required>
                                             <option value="">Select</option>
                                             <option value="booking">Booking</option>
                                             <option value="sponsor">Sponsor</option>
@@ -109,14 +133,23 @@
                                         </select>
                                     </fieldset>
                                     <div class="box" id="textarea">
-                                        <textarea name="message" id="message" cols="10" rows="50" placeholder="Message" ></textarea>
+                                        <textarea name="message" id="message" cols="10" rows="50" placeholder="Message" required>
+
+                                        </textarea>
                                     </div>
+                                    
                                     <div class="box">
+                                        
                                         <input id="submit" type="submit" placeholder="Send" value="Submit">
+                                    
                                     </div>
+                                    
+                                    
+                                    
                                 </div>
                             </form>
                     </div>
+                    
                 </section>
                             <footer>
                                 <div class="contact-info-footer">
