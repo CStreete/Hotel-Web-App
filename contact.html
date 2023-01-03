@@ -12,7 +12,16 @@
 </head>
 <body>
     <a href="#top">
-    <button id="top-Btn">To Top</button>
+    <button id="top-Btn" onmouseover="arrowUpBounce()" onmouseout="removeArrowUpBounce()">
+        <i id="arrow-up" class="fa-solid fa-angle-up"></i>
+    </button>
+</a>
+        </a>
+        <a href="#form-start">
+            <button id="down-Btn" onmouseover="arrowDownBounce()" onmouseout="removeArrowDownBounce()">
+                <i id="arrow-down" class="fa-solid fa-angle-down"></i>
+            </button>
+            
         </a>
     
     <header class="page-header" id="top">
@@ -75,12 +84,6 @@
             <section class="contact-container">
                 <div class="intro-container">
                     <h1 class="pic-text">Contact Us </h1>
-                    <div class="arrow">
-                        <a href="#form-start">
-                            <i class="fa-solid fa-angle-down fa-2xl fa-bounce"></i>
-                        </a>
-                       
-                    </div>
                 </div>
                 <article class="contact-us-intro">
                     <p class="intro-text">The Contact page on our website is the perfect place to get in touch with us.

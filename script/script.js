@@ -49,11 +49,30 @@ button.addEventListener('click',function(){
 
 
 
-
-
-
    
+    const arrowUp = document.getElementById('arrow-up');
+    
+
+    function arrowUpBounce (){
+        arrowUp.classList.add('fa-bounce');
+
+    }
+
+    function removeArrowUpBounce(){
+        arrowUp.classList.remove('fa-bounce');
+    }
+
+
+    const arrowDown = document.getElementById('arrow-down');
    
+    function arrowDownBounce (){
+        arrowDown.classList.add('fa-bounce');
+
+    }
+
+    function removeArrowDownBounce(){
+        arrowDown.classList.remove('fa-bounce');
+    }
 
   
 

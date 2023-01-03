@@ -12,7 +12,15 @@
 </head>
 <body>
     <a href="#top">
-        <button id="top-Btn">To Top</button>
+        <button id="top-Btn" onmouseover="arrowUpBounce()" onmouseout="removeArrowUpBounce()">
+            <i id="arrow-up" class="fa-solid fa-angle-up"></i>
+        </button>
+            </a>
+            <a href="#room-title">
+                <button id="down-Btn" onmouseover="arrowDownBounce()" onmouseout="removeArrowDownBounce()">
+                    <i id="arrow-down" class="fa-solid fa-angle-down"></i>
+                </button>
+                
             </a>
     
     <header class="page-header">
@@ -76,12 +84,6 @@
                         </video>
                         <div class="video-title">
                             <h1>Our Rooms</h1>
-                        </div>
-                        <div class="arrow">
-                            <a href="#room-section">
-                                <i class="fa-solid fa-angle-down fa-2xl fa-bounce"></i>
-                            </a>
-                           
                         </div>
                     </div>
             </section>
