@@ -117,6 +117,8 @@
       
     }
 
+   
+
     .design{
      position: relative;
         
@@ -283,6 +285,10 @@
         }
 
 
+        .home-tag,.room-tag,.contact-tag{
+            color: #FCF6F5;
+            font-style: italic;
+        }
 
       
 
