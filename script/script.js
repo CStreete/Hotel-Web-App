@@ -22,14 +22,7 @@ button.addEventListener('click',function(){
         menu.classList.toggle("is-active");
         document.body.style.overflow ="hidden";
         navigatortop.style.display = "none";
-        navigatordown.style.display = "none";
-       
-        
-
-        
-        
-      
-        
+        navigatordown.style.display = "none"
         
     }
     else if(hamburgerIcon.classList.contains('fa-x')){

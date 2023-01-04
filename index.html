@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Styles/style.css">
     <link rel="stylesheet" href="Styles/header.css">
-    <link rel="stylesheet" href="Styles/hero.css">
+    <link rel="stylesheet" href="Styles/home.css">
     <link rel="stylesheet" href="Styles/resposive.css">
     
     
@@ -14,32 +14,43 @@
     <title>CCC Resort</title>
 </head>
 <body>
+    <!----Header Section---->
    
     <header>
        <div class="logo">
-        <a href="index.html">
-            <img src="img/logo.png" width="100%" height="100%" alt="Our logo">
-             </a>
+            <a href="index.html">
+                <img src="img/logo.png" width="100%" height="100%" alt="Our logo">
+            </a>
        </div>
         <ul id="nav-bar">
             <li>
                 <a href="index.html">
-                Home
+                   <span>
+                    Home
+                   </span> 
+              
                 </a> 
             </li>
              <li>
                 <a href="book.html">
-                Our Rooms
+                    <span>
+                        Our Rooms
+                    </span>
+               
                 </a> 
             </li>
             <li>
                 <a href="contact.html">
-                Contact Us
+                    <span>
+                        Contact Us
+                    </span>
+               
                 </a> 
             </li>
             <li>
                 <button class="navbar-btn">
-                   <a href="book.html">Book </a> </button>
+                    <a href="contact.html#form-start">Book </a> 
+                </button>
             </li>        
        </ul>
        <div class="hamburger" id="hamburger-button">
@@ -48,10 +59,10 @@
        
     </header>
     <main>
-        
+        <!----Hamburger Wrapper Section---->
         <nav id="menu" class="wrapper" >
             <ul>
-                <div class="img-style"></div>
+                 <div class="img-style"></div>
                 <li>  
                     <a href="index.html">
                         <span class="home-tag">Home</span>
@@ -73,10 +84,10 @@
             </ul>
         </nav>
 
+        <!----Hero Section---->
         <section class="hero">
-            
             <div class="title" id="hide-hero">
-                <h1 id="test">CCC RESORT</h1>
+                <h1 id="company-title">CCC RESORT</h1>
                 <h2>Luxurious Beach Resorts</h2>
             </div>
             <div class="button">
@@ -86,41 +97,35 @@
                     </button>
                 </a>
             </div>
-            
             <div class="desktop-tablet-view" id="hide-desktop-table-view">
                 <div class="img-style-hero"></div>
                 <div class="room-preview">
                     <a href="book.html">
-                    <div class="preview-title">
-                        <h1 id="h1">Presidential</h1>
-                        <h2 id="h2">Suite</h2>
-                        <h3 id="h3">Luxury hotel suite offering the highest level of comfort 
+                        <div class="preview-title">
+                            <h1 id="h1">Presidential</h1>
+                            <h2 id="h2">Suite</h2>
+                            <h3 id="h3">Luxury hotel suite offering the highest level of comfort 
                             and amenities, with stunning views, lavish furnishings, 
                             and attentive service</h3>
-                    </div>
-                </a>
+                        </div>
+                    </a>
                 </div>
                 <div class="room-preview-second">
                     <a href="book.html">
-                    <div class="preview-title">
-                        <h1 id="h1">Queen</h1>
-                        <h2 id="h2">Suite</h2>
-                        <h3 id="h3">A luxurious hotel suite offering spacious accommodations, exquisite amenities, 
+                        <div class="preview-title">
+                            <h1 id="h1">Queen</h1>
+                            <h2 id="h2">Suite</h2>
+                            <h3 id="h3">A luxurious hotel suite offering spacious accommodations, exquisite amenities, 
                             and opulent decor for an unparalleled stay</h3>
-                    </div>
-                </a>
-
-
+                        </div>
+                    </a>
                 </div>
-               
-                
-                
             </div>
         </section>
     </main>
 
 
-
+<!----Script Section---->
 
 <script src="script/script.js"></script>
 

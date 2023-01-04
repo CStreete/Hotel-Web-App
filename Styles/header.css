@@ -1,145 +1,165 @@
-header{
-    display: flex;
-    justify-content: space-around;
-    height: 11%;
-}
+       
+       /*Header + Hamburger CSS*/
 
-header .logo {
-   
-    width: 80px;
-    height: 80px;
-    padding-right: 18%;
-    margin-left: 2%;
-    
-    
-}
+       header{
+            display: flex;
+            justify-content: space-around;
+            height: 11%;
+        }
 
-
-header ul{
-    display: none;
-    align-items: center;
-    justify-content:space-evenly;
-    flex: 1;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-   
-}
-
-header li {
-    margin-right: 8%;
-    font-size: 1.5rem;
-    font-style: italic;
-    
-    
-}
+        header .logo {
+        
+            width: 80px;
+            height: 80px;
+            padding-right: 18%;
+            margin-left: 2%;
+            
+            
+        }
 
 
+        header ul{
+            display: none;
+            align-items: center;
+            justify-content:space-evenly;
+            flex: 1;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        
+        }
 
-.logo img {
-    height: 100%;
-    width:100%;
-    margin-left: 5%;
-    
-}
+        header li {
+            margin-right: 8%;
+            font-size: 1.5rem;
+            font-style: italic;
+            
+            
+        }
 
-header .hamburger {
-    width: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    cursor: pointer;
-    
-}
+       header a {
+        color: #FCF6F5;
+       }
 
-.hamburger i {
-    color: #FCF6F5;
-    margin-right: 20%;
-}
+      
+        .logo img {
+            height: 100%;
+            width:100%;
+            margin-left: 5%;
+            
+        }
 
+        header .hamburger {
+            width: 30%;
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            cursor: pointer;
+            
+        }
 
-.wrapper{
-    position: fixed;
-    left: 400%;
-    height: 105%;
-    width: 100%;
-    overflow:hidden;
-    
-    transition:ease 0.5s;
-    z-index: 98;
-}
-
-    
-.wrapper.is-active{
-    left: 0;
-}
-
-.img-style{
-    position: absolute;
-    background: black;
-    width: 100%;
-    height: 100%;
-    opacity: 0.4;
-}
-.wrapper img{
-    width: 100%;
-    height: 100%;
-    }
+        .hamburger i {
+            color: #FCF6F5;
+            margin-right: 20%;
+        }
 
 
-.wrapper li{
-    height: 29%;
-}
-span{
-    font-style: italic;
-}
+        .wrapper{
+            position: fixed;
+            left: 400%;
+            height: 105%;
+            width: 100%;
+            overflow:hidden;
+            
+            transition:ease 0.5s;
+            z-index: 98;
+        }
 
-.home-tag{
-    position: absolute;
-    font-size: 3rem;
-    right: 35%;
-    top: 10%;
-    
-}
-.room-tag{
-    position: absolute;
-    font-size: 3rem;
-    right: 22%;
-    top: 40%;
-}
-.contact-tag{
-    position: absolute;
-    font-size: 3rem;
-    right: 22%;
-    top: 70%;
-}
+            
+        .wrapper.is-active{
+            left: 0;
+        }
 
-
-ul a {
-    text-decoration: none;
-}
+        .img-style{
+            position: absolute;
+            background: black;
+            width: 100%;
+            height: 100%;
+            opacity: 0.4;
+        }
+        .wrapper img{
+            width: 100%;
+            height: 100%;
+            }
 
 
-.wrapper ul{
-    padding: 0;
-    margin: 0 ; 
-    height: 100%;
-    width: 100%;
-   
-    
-}
+        .wrapper li{
+            height: 29%;
+        }
+        span{
+            font-style: italic;
+        }
 
-.navbar-btn{
- background:#0F1E4A;
- border: none;
- width: 80px;
- height: 40px;
- 
- border-radius: 20px;
- font-size: 1.5rem;
- font-style: italic;
- 
- 
-}
+        .home-tag{
+            position: absolute;
+            font-size: 3rem;
+            right: 35%;
+            top: 10%;
+            
+        }
+        .room-tag{
+            position: absolute;
+            font-size: 3rem;
+            right: 22%;
+            top: 40%;
+        }
+        .contact-tag{
+            position: absolute;
+            font-size: 3rem;
+            right: 22%;
+            top: 70%;
+        }
 
+
+        ul a {
+            text-decoration: none;
+        }
+
+
+        .wrapper ul{
+            padding: 0;
+            margin: 0 ; 
+            height: 100%;
+            width: 100%;
+        
+            
+        }
+
+        .navbar-btn{
+        background: none;
+        border: none;
+        width: 80px;
+        height: 40px;
+        border:#0F1E4A solid 2px;
+        cursor: pointer;
+        border-radius: 20px;
+        font-size: 1.5rem;
+        font-style: italic;
+        
+        }
+
+        .navbar-btn:hover{
+            background: #0F1E4A;
+            transition: ease 0.3s;
+
+        }
+
+        header span:hover{
+            color: #0F1E4A;
+            transition: ease 0.5s;
+            font-size: 1.8rem;
+            
+        }
+
+       

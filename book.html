@@ -5,89 +5,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Styles/header.css">
-    <link rel="stylesheet" href="Styles/resposive.css">
+    <link rel="stylesheet" href="Styles/footer.css">
     <link rel="stylesheet" href="Styles/book.css">
+    <link rel="stylesheet" href="Styles/resposive.css">
     <script src="https://kit.fontawesome.com/54da2c0dbc.js" crossorigin="anonymous"></script>
     <title>Our Rooms</title>
 </head>
 <body>
-    <a href="#top">
-        <button id="top-Btn" onmouseover="arrowUpBounce()" onmouseout="removeArrowUpBounce()">
+    <!--Navigation Buttons Section-->
+        <a href="#top">
+            <button id="top-Btn" onmouseover="arrowUpBounce()" onmouseout="removeArrowUpBounce()">
             <i id="arrow-up" class="fa-solid fa-angle-up"></i>
-        </button>
-            </a>
-            <a href="#room-title">
-                <button id="down-Btn" onmouseover="arrowDownBounce()" onmouseout="removeArrowDownBounce()">
-                    <i id="arrow-down" class="fa-solid fa-angle-down"></i>
+            </button>
+        </a>
+        <a href="#room-title">
+            <button id="down-Btn" onmouseover="arrowDownBounce()" onmouseout="removeArrowDownBounce()">
+                <i id="arrow-down" class="fa-solid fa-angle-down"></i>
+            </button>  
+        </a>
+    <!-- Header Section-->
+        <header class="page-header">
+            <div class="logo">
+                <a href="index.html">
+                <img src="img/logo.png" alt="Our logo">
+                </a>
+            </div>
+            <ul id="nav-bar">
+                 <li>
+                    <a href="index.html">
+                        <span>
+                            Home
+                        </span>
+                    
+                    </a> 
+                </li>
+                <li>
+                    <a href="book.html">
+                        <span>
+                            Our Rooms
+                        </span>
+                    </a> 
+                </li>
+                <li>
+                    <a href="contact.html">
+                        <span>
+                            Contact Us
+                        </span>
+                    </a> 
+                </li>
+                <li>
+                 <button class="navbar-btn">
+                    <a href="contact.html#form-start">
+                    Book
+                    </a>
                 </button>
-                
-            </a>
-    
-    <header class="page-header">
-        <div class="logo">
-            <a href="index.html">
-             <img src="img/logo.png" alt="Our logo">
-            </a>
-        </div>
-         <ul id="nav-bar">
-             <li>
-                 <a href="index.html">
-                 Home
-                 </a> 
-             </li>
-              <li>
-                 <a href="book.html">
-                 Our Rooms
-                 </a> 
-             </li>
-             <li>
-                 <a href="contact.html">
-                 Contact Us
-                 </a> 
-             </li>
-             <li>
-                 <button class="navbar-btn">Book</button>
-             </li>        
-        </ul>
+                </li>        
+            </ul>
         <div class="hamburger" id="hamburger-button">
              <i id="hamburger-icon" class="fa-solid fa-bars fa-2xl"></i>
         </div>
      </header>
+
+      <!--Hamburger Wrapper Section-->
+     <nav id="menu" class="wrapper" >
+        <ul>
+            <div class="img-style"></div>
+            <li>  
+                <a href="index.html">
+                    <span class="home-tag">Home</span>
+                    <img src="img/hammock.jpg" alt="Home" width="400px">
+                </a>
+            </li>
+            <li>
+                <a href="book.html">
+                    <span class="room-tag">Our Rooms</span>                 
+                    <img src="img/presidential.jpeg" alt="Our Rooms" width="400px" height="300px">
+                </a>
+            </li>
+            <li>
+                <a href="contact.html">
+                    <span class="contact-tag">Contact Us</span>
+                    <img src="img/reception.jpg" alt="Contact Us"  width="400px">
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+
         <main>
-            <nav id="menu" class="wrapper" >
-                <ul>
-                    <div class="img-style"></div>
-                    <li>  
-                        <a href="index.html">
-                            <span class="home-tag">Home</span>
-                            <img src="img/hammock.jpg" alt="Home" width="400px">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="book.html">
-                            <span class="room-tag">Our Rooms</span>                 
-                            <img src="img/presidential.jpeg" alt="Our Rooms" width="400px" height="300px">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="contact.html">
-                            <span class="contact-tag">Contact Us</span>
-                            <img src="img/reception.jpg" alt="Contact Us"  width="400px">
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+
+            <!-- Hero Section -->
             <section class="hero-container">
-                    <div class="video-container">
-                        <video class="beach-video" src="media/beach-1080p.mp4" width="100%" height="100%" loop autoplay muted playsinline >
+                <div class="video-container">
+                    <video class="beach-video" src="media/beach-1080p.mp4" width="100%" height="100%" loop autoplay muted playsinline >
                                 Your browser does not support this video
-                        </video>
-                        <div class="video-title">
-                            <h1>Our Rooms</h1>
-                        </div>
+                    </video>
+                    <div class="video-title">
+                        <h1>Our Rooms</h1>
+                    </div>
                     </div>
             </section>
 
+            <!--Room Preview Section-->
             <section id="room-section" class="room-preview">
                 <p class="intro-text">                
                     Our water bungalow suites are the ultimate in luxury accommodations. 
@@ -102,7 +121,6 @@
                     <br>
                     <br>
                     <img class="design"src="img/Valima Resort (3).png" width="100%" height="100%" alt="">
-
                 </p>
 
                 <article class="presidential-room">
@@ -111,143 +129,156 @@
                     </div>
                     
                     <div>
-                        <div class="test"> 
+                        <div class="our-rooms"> 
                             <h1 id="room-title">Presidential Suite</h1>
-                        <p class="text">
-                            This luxurious hotel room is perfect for anyone looking for a 
-                            luxurious and comfortable stay. It is elegantly decorated with
-                             modern furniture and decor, and features a king-sized bed with
-                              plush bedding and pillows<span id="dots">....</span>
-                              
-                              <span id="more">For added convenience, the room also
-                               has a minibar and a flat-screen television. The en-suite bathroom 
-                               has a deep soaking tub, a separate shower and all the amenities you
-                                need for a relaxing experience. Wi-Fi access is complimentary, and y
-                                ou can also enjoy room service for added convenience. This room also offers 
-                                stunning views of the city skyline.</span> 
+                                <p class="text">
+                                    This luxurious hotel room is perfect for anyone looking for a 
+                                    luxurious and comfortable stay. It is elegantly decorated with
+                                    modern furniture and decor, and features a king-sized bed with
+                                    plush bedding and pillows<span id="dots">....</span>
+                                    <span id="more">For added convenience, the room also
+                                    has a minibar and a flat-screen television. The en-suite bathroom 
+                                    has a deep soaking tub, a separate shower and all the amenities you
+                                    need for a relaxing experience. Wi-Fi access is complimentary, and y
+                                    ou can also enjoy room service for added convenience. This room also offers 
+                                    stunning views of the city skyline.</span> 
 
-                                        <i id="myBtn" class="fa-solid fa-angle-down" onclick="myFunc()"></i>  
+                                    <i id="myBtn" class="fa-solid fa-angle-down" onclick="myFunc()"></i>  
                                     <br>
                                 <button class="book-room"> Book Room </button>
-                        </p>
+                                </p>
                         </div>
-
-
                     </div>                   
                 </article>
-                <article class="presidential-room">
-                    
-                    <div>
-                        <div class="test">
-                            <h1 id="room-title" >Queen Suite</h1>
-                        <p class="text" id="queen">
-                            
-                            This luxurious water bungalow room offers the ultimate in relaxation. Set in a 
-                            stunning ocean-side location, the bungalow features a spacious room adorned with
-                             high-end furniture, designer fabrics, and modern amenities.<span id="dot">....</span>
-                             <span id="more">The room also features 
-                             a large terrace with a private infinity pool, where guests can enjoy spectacular views 
-                             of the ocean and breathtaking sunsets. Inside, the bungalow is equipped with a king-size 
-                              bed, a flat-screen TV, a mini-bar, and a bathroom with a Jacuzzi tub. Wi-Fi is available 
-                              throughout the property, and there are plenty of activities to keep guests entertained, 
-                              including kayaking, snorkeling, and fishing. With its stunning location and luxurious amenities,
-                               this water bungalow room is the perfect place for a romantic getaway.</span>
-                              
-                            <i id="myBtn" class="fa-solid fa-angle-down"></i>
-                            
 
-                               <br>
+                <article class="presidential-room">  
+                    <div>
+                        <div class="our-rooms">
+                            <h1 id="room-title" >Queen Suite</h1>
+                                <p class="text" id="queen">
+                                    This luxurious water bungalow room offers the ultimate in relaxation. Set in a 
+                                    stunning ocean-side location, the bungalow features a spacious room adorned with
+                                    high-end furniture, designer fabrics, and modern amenities.<span id="dot">....</span>
+                                    <span id="more">
+                                    The room also features 
+                                    a large terrace with a private infinity pool, where guests can enjoy spectacular views 
+                                    of the ocean and breathtaking sunsets. Inside, the bungalow is equipped with a king-size 
+                                    bed, a flat-screen TV, a mini-bar, and a bathroom with a Jacuzzi tub. Wi-Fi is available 
+                                    throughout the property, and there are plenty of activities to keep guests entertained, 
+                                    including kayaking, snorkeling, and fishing. With its stunning location and luxurious amenities,
+                                    this water bungalow room is the perfect place for a romantic getaway.</span>
+                                <i id="myBtn" class="fa-solid fa-angle-down"></i>
+                                <br>
                                 <button class="book-room"> Book Room </button>
-                        </p>
-                    </div>
+                                </p>
+                        </div>
                     </div>
                     <div class="img-con" id="queen-img">
                         <img src="img/Valima Resort (1300 × 700px) (1).png" width="100%" height="100%" alt="Queen Suite">
                     </div>
-
                 </article>
+
                 <article class="presidential-room">
                     <div class="img-con">
                         <img src="img/Valima Resort (1300 × 700px) (3).png" width="100%" height="100%" alt="King Suite">
                     </div>
                     <div>
-                        <div class="test">
+                        <div class="our-rooms">
                             <h1 id="room-title">King Suite</h1>
-                        <p class="text">
+                            <p class="text">
+                                This luxurious water bungalow room is perfect for enjoying a relaxing and peaceful holiday.
+                                It offers complete privacy and seclusion, with stunning panoramic views of the ocean. 
+                                The room itself is spacious and elegantly designed with modern furnishings and amenities.<span id="dots">....</span>
                             
-                            This luxurious water bungalow room is perfect for enjoying a relaxing and peaceful holiday.
-                            It offers complete privacy and seclusion, with stunning panoramic views of the ocean. 
-                            The room itself is spacious and elegantly designed with modern furnishings and amenities.<span id="dots">....</span>
-                            
-                            <span id="more">
-                            It features a private terrace, a jacuzzi, a plunge pool, and direct access to the crystal-clear water. 
-                            There is also a fully equipped kitchen, a bar, and a living room with a flat-screen TV. 
-                            The perfect getaway for those looking to escape the hustle and bustle of the city.
-                            </span>
-                            <i id="myBtn" class="fa-solid fa-angle-down"></i>
-                                    <br>
-                                <button class="book-room"> Book Room </button>
-                        </p>
-                    </div>
-                    </div>                   
-                </article>
-                <article class="presidential-room">
-                    <div class="test">
-                        <h1 id="room-title">Prince Suite</h1>
-                            <div>
-                                <p class="text" id="queen">
-                            
-                            This luxurious water bungalow room offers the ultimate in relaxation. Set in a 
-                            stunning ocean-side location, the bungalow features a spacious room adorned with
-                             high-end furniture, designer fabrics, and modern amenities. The room also features 
-                             a large terrace with a private infinity pool, where guests can enjoy spectacular views
-                              of the ocean and breathtaking sunsets.<span id="dots">....</span>
-                              <span id="more">
-                              Inside, the bungalow is equipped with a king-size 
-                              bed, a flat-screen TV, a mini-bar, and a bathroom with a Jacuzzi tub. Wi-Fi is available 
-                              throughout the property, and there are plenty of activities to keep guests entertained, 
-                              including kayaking, snorkeling, and fishing. With its stunning location and luxurious amenities,
-                               this water bungalow room is the perfect place for a romantic getaway.
+                                <span id="more">
+                                It features a private terrace, a jacuzzi, a plunge pool, and direct access to the crystal-clear water. 
+                                There is also a fully equipped kitchen, a bar, and a living room with a flat-screen TV. 
+                                The perfect getaway for those looking to escape the hustle and bustle of the city.
                                 </span>
                                 <i id="myBtn" class="fa-solid fa-angle-down"></i>
-
-                               <br>
+                                <br>
                                 <button class="book-room"> Book Room </button>
                             </p>
                         </div>
+                    </div>                   
+                </article>
+
+
+                <article class="presidential-room">
+                    <div class="our-rooms">
+                        <h1 id="room-title">Prince Suite</h1>
+                            <div>
+                                <p class="text" id="queen">  
+                                    This luxurious water bungalow room offers the ultimate in relaxation. Set in a 
+                                    stunning ocean-side location, the bungalow features a spacious room adorned with
+                                    high-end furniture, designer fabrics, and modern amenities. The room also features 
+                                    a large terrace with a private infinity pool, where guests can enjoy spectacular views
+                                    of the ocean and breathtaking sunsets.<span id="dots">....</span>
+                                    <span id="more">
+                                    Inside, the bungalow is equipped with a king-size 
+                                    bed, a flat-screen TV, a mini-bar, and a bathroom with a Jacuzzi tub. Wi-Fi is available 
+                                    throughout the property, and there are plenty of activities to keep guests entertained, 
+                                    including kayaking, snorkeling, and fishing. With its stunning location and luxurious amenities,
+                                    this water bungalow room is the perfect place for a romantic getaway.
+                                    </span>
+                                    <i id="myBtn" class="fa-solid fa-angle-down"></i>
+                               <br>
+                                <button class="book-room"> Book Room </button>
+                                </p>
+                            </div>
+                    
                     </div>
                     <div class="img-con" id="queen-img">
                         <img src="img/Valima Resort (1300 × 700px) (4).png" width="100%" height="100%" alt="Prince Suite">
                     </div>
                 </article>
-                <footer>
-                    <div class="contact-info">
-                        <div class="first">
-                        <h2 class="title">Contact Info</h2>
-                        <p class="adress">Paradise island, Maldives</p>
-                        <h3 class="reception">Hotell Reception</h3>
-                        <a class="reception-number" href="tel:+03939 432047">03939 432048</a>
-                        <a class="reception-email"href="mailto:mail@cccresort.com">mail@cccresort.com</a>
-                        </div>
-                        <div class="second">
-                        <h2 class="room">Room Reservations</h2>
-                        <a class="room-number" href="tel:03939 432048">03939 432048</a>
-                        <a class="room-email" href="mailto:reservatons@cccresort.com">reservations@cccresort.com</a>
-                        </div>
-                        </div>
-                        <div class="watermark">
-                            <a href="mailto:camestreete@hotmail.com">Created and Designed By Cameron Streete</a>
-                         </div>
-                    
-                </footer>
             </section>
-        </main>
+        </main> 
+        
+         <!--Footer Section--> 
+        <footer>
+            <div class="footer-container">
+                <div class="first-footer">
+                    <h2 class="footer-title">Location</h2>
+                    <p class="footer-adress">Paradise island, Maldives</p>
+                </div>
+
+                    <div class="second-footer"> 
+                    <h3 class="footer-reception">Hotell Reception</h3>
+                    <a class="footer-reception-number" href="tel:+03939 432047">03939 432048</a>
+                    <a class="reception-email"href="mailto:mail@cccresort.com">mail@cccresort.com</a>
+                    </div>
+        
+                <div class="third-footer">
+                    <h2 class="footer-room">Room Reservations</h2>
+                    <a class="footer-room-number" href="tel:03939 432048">03939 432049</a>
+                    <a class="footer-room-email" href="mailto:reservatons@cccresort.com">reservations@cccresort.com</a>
+                </div>
+                   
+               
+            </div>
+     
+            <div class="footer-img-container">
+                <img class="footer-img"src="img/Valima Resort (3).png" width="100%" height="100%" alt="">
+            </div>
+            <div class="footer-icons">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+            <div class="watermark">
+                <a href="mailto:camestreete@hotmail.com">Created and Designed By Cameron Streete</a>
+            </div>
+
+        </footer>
 </body>
 
 
-<script src="script/script.js">
+                <!--Script Section-->
+
+                <script src="script/script.js">
             
-</script>
+                </script>
 
 
 </html>

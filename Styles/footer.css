@@ -1,0 +1,146 @@
+        
+        
+        
+        .footer-container{
+            background: grey;
+            display: flex;
+            width: 100%;
+            justify-content: space-evenly;
+            padding-top: 2%;
+            
+
+        }
+
+
+        footer{
+            background:gray;
+            width: 100%;
+            margin-top: 5%;
+            display: flex;
+            flex-direction: column;
+            justify-content:flex-start;
+            align-items: center;
+        
+
+            
+        }
+
+        .footer-img-container{
+            padding-top: 2%;
+            
+            
+        }
+
+        .footer-img{
+            width: 200px;
+        }
+
+        .first-footer{
+            display: flex;
+            flex-direction: column;
+            
+            width: 30%;
+        }
+        .second-footer{
+            display: flex;
+            flex-direction: column;
+            width: 20%;
+            
+            
+            
+        }
+
+        .third-footer{
+            display: flex;
+            flex-direction: column;
+            width: 20%;
+        
+            
+            
+        }
+        .watermark{
+            display: flex;
+            justify-content: center;
+            
+            padding-bottom: 2%;
+        }
+        .watermark a {
+            text-decoration: none;
+        }
+
+
+        .footer-icons{
+        
+            width: 60%;
+            display: flex;
+            justify-content: space-evenly;
+            padding: 2% 2%;
+        }
+
+        .footer-icons i {
+            font-size: 2rem;
+            color: #0F1E4A;
+            
+        }
+
+        .footer-title{color:#FCF6F5;
+            font-size: 1rem; }
+        
+        .footer-adress{font-size: 1rem; color: #FCF6F5;}
+        
+        .footer-reception,.footer-room{color:#FCF6F5; font-size: 1rem;}
+        
+        .footer-reception-number,.footer-reception-email,.footer-room-number,.footer-room-email{
+             color: #FCF6F5; text-decoration: none; font-size: 1rem;
+            }
+    
+        p{
+            color: #FCF6F5;
+        }
+    
+    
+        .home-tag,.room-tag,.contact-tag{
+                color: #FCF6F5;
+                font-style: italic;
+        }
+
+
+        
+    @media screen and (max-width: 550px) {
+        
+        
+        .first-footer{
+            width: 30%;
+        }
+        .second-footer{
+            width: 15%;
+            padding-right: 20%;
+            
+        }
+
+        .third-footer{
+            display: flex;
+            flex-direction: column;
+            width: 20%;
+            margin-right: 5%;
+        }
+
+        .footer-room-email,.footer-room-number,
+        .footer-reception-email,.footer-reception-number{
+            font-size: 0.7rem;
+            text-decoration: none;
+        }
+
+        .footer-icons i {
+            font-size: 1rem;
+        }
+
+        .watermark a {
+            font-size: 1rem;
+        }
+
+        .footer-img{
+            width: 150px;
+        }
+        
+    }
