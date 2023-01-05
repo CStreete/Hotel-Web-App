@@ -212,6 +212,7 @@
     }
 
     .box-option{
+      
         width: 87%;
         background: #0F1E4A;
         margin-top: 1%;
@@ -249,6 +250,26 @@
     textarea::placeholder{
         color: #FCF6F5;
         font-size: 1.5rem;
+
+    }
+
+    #text-label{
+        font-style: normal;
+        font-size: 1.5rem;
+        
+        
+    }
+    select{
+        font-style: normal;
+        font-size: 1.5rem;
+        padding-left: 1%;
+        
+    }
+
+    option{
+        font-style: normal;
+        
+        
     }
 
     #submit{
@@ -293,7 +314,9 @@
 
         input{font-size: 1rem;}
 
-
+        .general-info{
+            width: 50%;
+        }
 
         
     }

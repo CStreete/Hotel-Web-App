@@ -7,6 +7,7 @@
        
     color: #FCF6F5;
     scroll-behavior: smooth;
+
 }
 
 
@@ -18,13 +19,21 @@
     
     border: none; 
     outline: none; 
-    background-color:#0F1E4A; 
-    color:#FCF6F5; 
+    background-color:transparent; 
+    border: #0F1E4A solid 2px;
+    color:#0F1E4A; 
     cursor: pointer; 
     padding: 10px; 
     border-radius: 10px; 
     font-size: 1.3rem;
 }
+
+.back-Btn:hover{
+    background-color: #0F1E4A;
+    color: #FCF6F5;
+    transition: ease 0.5s;
+}
+
 
 section{
     min-height: 100%;

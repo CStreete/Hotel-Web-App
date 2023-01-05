@@ -139,12 +139,13 @@
     .book-room{
         background:none;
         border:#0F1E4A solid 2px;
-        width: 200px;
+        width: 100%;
+       
         height: 40px;
         border-radius: 20px;
         font-size: 1.5rem;
         font-style: italic;
-        margin-left: 25%;
+        ;
         margin-top: 3%;
         margin-bottom: 3%;
         color: #0F1E4A;
@@ -196,19 +197,24 @@
 
     }
 
-    #more{
+    #more,#more2,#more3,#more4{
         display: none;
     }
 
-    #dots,#more{
+    #dots,#more,#dots2,#more2,#dots3,#more3,#dots4,#more4{
         color: #0F1E4A;
         font-size: 1rem;
         font-style: normal;
         letter-spacing: 0.01rem;
     }
-    #myBtn, #myBtn-2{
+    #myBtn, #myBtn2,#myBtn3,#myBtn4{
         color: #0F1E4A;
     }
+
+
+
+
+
 
     .footer-container{
         background: grey;
