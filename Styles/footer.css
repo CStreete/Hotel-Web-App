@@ -80,6 +80,7 @@
         .footer-icons i {
             font-size: 2rem;
             color: #0F1E4A;
+            cursor: pointer;
             
         }
 
@@ -103,6 +104,21 @@
                 color: #FCF6F5;
                 font-style: italic;
         }
+
+
+        .footer-icons i:hover{
+            transition: ease 0.5s;
+            font-size: 2.5rem;
+        }
+
+
+
+
+
+
+
+
+
 
 
         
@@ -142,6 +158,10 @@
 
         .footer-img{
             width: 150px;
+        }
+        .footer-icons i:hover{
+            transition: none;
+            font-size: 1rem;
         }
         
     }

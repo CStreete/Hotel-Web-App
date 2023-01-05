@@ -92,4 +92,22 @@
                 arrowDown.classList.remove('fa-bounce');
             }
 
+
+
+            /*---Slide Animation Script */
+
+            const observer = new IntersectionObserver((enteries)=>{
+                enteries.forEach((entry) => {
+                    console.log(entry)
+                    if(entry.isIntersecting){
+                        entry.target.classList.add('show');
+                    }else{
+                        entry.target.classList.remove('show');
+                    }
+
+                });
+            });
+
+            const hidden = document.querySelectorAll('.intro-text');
+            hidden.forEach((el) => observer.observe(el));
         
