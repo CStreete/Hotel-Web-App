@@ -52,6 +52,7 @@
     .beach-video{
         
         height: 100%;
+        width: 100%;
         z-index: 0;
         object-fit:cover;
     }
@@ -144,7 +145,14 @@
         margin-left: 3%;
         margin-right: 3%;
         
+        
 
+    }
+
+
+    .img-con img{
+        width: 100%;
+        height: 100%;
     }
 
     .book-room{
