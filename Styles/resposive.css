@@ -2,9 +2,6 @@
    
     @media screen and (min-width: 300px) {
        
-        .hero h1{
-            padding-top: 10%;
-        }
 
         .button button{
             margin-top: 400px;
@@ -31,7 +28,7 @@
     #hide-desktop-table-view{
         right: 0;
     }
-     .button button{
+    .mbButton{
        display: none;
         
     }
