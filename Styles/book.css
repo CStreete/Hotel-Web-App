@@ -188,10 +188,10 @@
 
 
 
-    #queen{
+    .queen{
         order: 2;
     }
-    #queen-img{
+    .queen-img{
         order: -1;
     }
 
@@ -337,10 +337,10 @@
         object-fit: cover;
 
     }
-    #queen{
+    .queen{
         order: 1;
     }
-    #queen-img{
+    .queen-img{
         order: 2;
     }
 
