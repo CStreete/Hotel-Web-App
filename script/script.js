@@ -21,7 +21,9 @@
                 hamburgerIcon.classList.add('fa-x');
                 menu.classList.toggle("is-active");
                 document.body.style.overflow ="hidden";
-                navigatortop.style.display = "none";        
+                navigatortop.style.display = "none";
+                navigatordown.style.display = "none";
+                        
                 
             }
             else if(hamburgerIcon.classList.contains('fa-x')){
@@ -111,3 +113,18 @@
             const hidden = document.querySelectorAll('.intro-text');
             hidden.forEach((el) => observer.observe(el));
         
+            
+
+
+            /*---Form Message Sent Script ---*/
+            const myForm = document.getElementById("myForm");
+            const message = document.getElementById("message");         
+
+            myForm.addEventListener('submit', function(event){
+                myForm.style.display = "none";
+                message.innerHTML = "Thank you for contacting us! We will get back to you as soon as possible.";
+                event.preventDefault();
+               
+            })
+
+         

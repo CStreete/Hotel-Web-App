@@ -259,7 +259,7 @@
         background-color:#0F1E4A; 
         color:#FCF6F5; 
         cursor: pointer; 
-        padding: 11px; 
+        padding: 7px; 
         border-radius: 10px; 
         font-size: 1.3rem;
 
@@ -275,7 +275,7 @@
         background-color:#0F1E4A; 
         color:#FCF6F5; 
         cursor: pointer; 
-        padding: 11px; 
+        padding: 7px; 
         border-radius: 10px; 
         font-size: 1.3rem;
 
@@ -311,6 +311,13 @@
       p {
         width: 60%;
       }
+      #top-Btn{
+        padding: 11px;
+    }
+        #down-Btn{
+        padding: 11px;
+    }
+   
     }
 
 
@@ -343,6 +350,7 @@
     .queen-img{
         order: 2;
     }
+
 
 
 

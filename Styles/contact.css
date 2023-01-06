@@ -305,9 +305,7 @@
     }
 
     
-   
-
-
+ 
     
  
 
@@ -335,6 +333,13 @@
 
         .general-info{
             width: 50%;
+        }
+
+        #top-Btn{
+            padding: 7px;
+        }
+        #down-Btn{
+            padding: 7px;
         }
 
         
