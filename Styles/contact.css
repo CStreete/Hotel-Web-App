@@ -22,7 +22,7 @@
 
     .page-header{
         background: #2156BE;
-        height: 12%;
+        height: 11%;
     }
   
 
@@ -302,6 +302,10 @@
 
     .watermark a {
         color: #FCF6F5;
+    }
+
+    header span{
+        font-size: 1.5rem;
     }
 
     

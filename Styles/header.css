@@ -164,4 +164,29 @@
             
         }
 
+
+
+
+        @media screen and (min-width: 700px) {
+        
+            #hamburger-button{
+                display: none;
+            }
+          
+            #nav-bar{
+                display: flex;
+                
+            }
+            
+            #hide-desktop-table-view{
+                right: 0;
+            }
+            .mbButton{
+               display: none;
+                
+            }
+        
+            
+            }
+        
        
