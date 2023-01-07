@@ -8,18 +8,14 @@
         font-weight: 500;
         color: #FCF6F5;
         scroll-behavior: smooth;
-        text-decoration: none;
-        
+        text-decoration: none;  
     }
+
 
     body{
         background:#F2EDD7FF;
         height: 100vh;
-        
-        overflow-x: hidden;
-       
-        
-        
+        overflow-x: hidden; 
     }
   
 
@@ -28,16 +24,11 @@
     }
 
  
-
     .hero-container{
         display: flex;
         flex-direction: column;
         height:800px;
         width: 100%;
-        
-        
-
-
     }
 
 
@@ -46,27 +37,24 @@
         position: relative;
         height: 100%;
         object-fit:cover;
-        
     }
 
+
     .beach-video{
-        
         height: 100%;
         width: 100%;
         z-index: 0;
         object-fit:cover;
     }
 
+
     .video-title{
-        
         position: absolute;
         top: 40%;
         left: 25%;
         z-index: 1;
         text-align: center;  
         font-size: 2rem;  
-        
-       
     }
 
 
@@ -74,13 +62,12 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-
         justify-content: flex-start;
-        
         height: 100%;
         
     }
   
+
     .intro-text{
         color:#0F1E4A;
         font-weight: 500;
@@ -110,13 +97,10 @@
    
 
     .design{
-     position: relative;
-        
-       width: 200px;
-
-       height: 40px;
-       
-       margin-bottom: 10%;
+        position: relative;
+        width: 200px;
+        height: 40px;
+        margin-bottom: 10%;
     }
 
     .presidential-room{
@@ -129,14 +113,34 @@
 
     .text{
         max-width:94%;
-        
         width: 100%;
         margin-left: 3%;
         color: #0F1E4A;
         font-size: 1rem;
         font-style: normal;
-        letter-spacing: 0.01rem;
+        letter-spacing: 0.02rem;
+        line-height: 1.5rem;
         
+    }
+
+
+    #more,#more2,#more3,#more4{
+        display: none;
+        line-height: 1.5rem;
+    }
+
+
+    #dots,#more,#dots2,#more2,#dots3,#more3,#dots4,#more4{
+        color: #0F1E4A;
+        font-size: 1rem;
+        font-style: normal;
+        letter-spacing: 0.01rem;
+       
+    }
+
+
+    #myBtn, #myBtn2,#myBtn3,#myBtn4{
+        color: #0F1E4A;
     }
 
 
@@ -144,8 +148,6 @@
         margin-top: 5%;
         margin-left: 3%;
         margin-right: 3%;
-        
-        
 
     }
 
@@ -195,17 +197,11 @@
         transition: ease 0.5s;
     }
 
-    
-
-
-
-    
-
-
 
     .queen{
         order: 2;
     }
+
     .queen-img{
         order: -1;
     }
@@ -225,8 +221,6 @@
         font-style: normal;
     }
 
-
-    
     
     .our-rooms{
         display: flex;
@@ -237,24 +231,6 @@
         margin-top: 5%;
 
     }
-
-    #more,#more2,#more3,#more4{
-        display: none;
-    }
-
-    #dots,#more,#dots2,#more2,#dots3,#more3,#dots4,#more4{
-        color: #0F1E4A;
-        font-size: 1rem;
-        font-style: normal;
-        letter-spacing: 0.01rem;
-    }
-    #myBtn, #myBtn2,#myBtn3,#myBtn4{
-        color: #0F1E4A;
-    }
-
-
-
-
 
 
     .footer-container{
@@ -267,8 +243,6 @@
 
     }
 
-    
-    
 
     #top-Btn{
         
@@ -277,7 +251,6 @@
         right: 30px; 
         z-index: 99; 
         border: none; 
-        outline: none; 
         background-color:#0F1E4A; 
         color:#FCF6F5; 
         cursor: pointer; 
@@ -286,14 +259,15 @@
         font-size: 1.3rem;
 
     }
+
+
     #down-Btn{
        
         position: fixed; 
         bottom: 20px;
         right: 75px; 
         z-index: 99; 
-        border: none; 
-        outline: none; 
+        border: none;  
         background-color:#0F1E4A; 
         color:#FCF6F5; 
         cursor: pointer; 
@@ -301,18 +275,9 @@
         border-radius: 10px; 
         font-size: 1.3rem;
 
+
     }
 
-
-
-
-
-        
-
-      
-
-
-    
 
     @media screen and (min-width:500px) {
         .beach-video{
@@ -372,10 +337,6 @@
     .queen-img{
         order: 2;
     }
-
-
-
-
 
 
     }

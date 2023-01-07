@@ -9,19 +9,19 @@
     <link rel="stylesheet" href="Styles/contact.css">
 
     <script src="https://kit.fontawesome.com/54da2c0dbc.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Contact Us</title>
 </head>
 <body>
      <!--Navigation Buttons Section-->
     
     
-        <a id="top-Btn" href="#top" onmouseover="arrowUpBounce()" onmouseout="removeArrowUpBounce()" >
+        <a aria-label="Top Button"  id="top-Btn" href="#top" onmouseover="arrowUpBounce()" onmouseout="removeArrowUpBounce()" >
         <i id="arrow-up" class="fa-solid fa-angle-up"></i>
         </a>
    
         
           
-        <a id="down-Btn"  href="#form-start" onmouseover="arrowDownBounce()" onmouseout="removeArrowDownBounce()" >
+        <a aria-label="Down Button"  id="down-Btn"  href="#form-start" onmouseover="arrowDownBounce()" onmouseout="removeArrowDownBounce()" >
         <i id="arrow-down" class="fa-solid fa-angle-down"></i>
         </a>
             
@@ -141,7 +141,7 @@
                             </p>
                             <br>
                             <p id="form-submited"></p>
-                            <form id="myForm" action="none" autocomplete="off">
+                            <form id="myForm" action="none">
                                 <fieldset>
                                     <div class="first-section">
                                         <input id="name" type="text" placeholder="Name" required>
@@ -181,7 +181,9 @@
             <div class="footer-container">
                 <div class="first-footer">
                     <h2 class="footer-title">Location</h2>
-                    <p class="footer-adress">Paradise island, Maldives</p>
+                    <p class="footer-adress">
+                            Paradise island, Maldives
+                    </p>
                 </div>
 
                     <div class="second-footer"> 
